@@ -1,0 +1,156 @@
+[INFO] http://localhost:8000/js/cart-interceptor.js 472:10 "[Cart] Interceptor installed ✓"
+[INFO] http://localhost:8000/products/venison-peas-recipe/ 2044:10 "%cPebble theme (v1.1.0) by Foxecom | Learn more https://rawjoy.com" "font-size: 14px; color: #FF5C00;"
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2178:1214 Uncaught SyntaxError: Invalid or unexpected token
+[WARNING] http://localhost:8000/products/venison-peas-recipe/ 2225:3029 "[Web Pixels Manager] No Monorail endpoint provided, skipping logging."
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/utilities.js?v=432309936098794211770797007' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/utilities.js?v=432309936098794211770797007 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/component.js?v=7598414753492740651765250348' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/component.js?v=7598414753492740651765250348 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/events.js?v=107931329937668355921776673949' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/events.js?v=107931329937668355921776673949 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/swiper.js?v=36270591393908806541767587270' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/swiper.js?v=36270591393908806541767587270 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/morph.js?v=96688351829082320291768384616' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/morph.js?v=96688351829082320291768384616 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 2407 Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/animation.js?v=142905138627646095261768017642' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/animation.js?v=142905138627646095261768017642 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/motion-component.js?v=157059568654758740731773902582' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/motion-component.js?v=157059568654758740731773902582 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/section-renderer.js?v=154568302229434357571765250349' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/section-renderer.js?v=154568302229434357571765250349 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/page-transition.js?v=43898393496219403521774236260' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/page-transition.js?v=43898393496219403521774236260 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/modules.js?v=26115603972005721061774517064' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/modules.js?v=26115603972005721061774517064 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/theme.js?v=96441619613020785891776673949' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/theme.js?v=96441619613020785891776673949 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/carousel.js?v=156096785658522729781776673947' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/carousel.js?v=156096785658522729781776673947 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/client.init-shop-cart-sync_CBh3R3k1.en.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.init_BiRY1oFY.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.document_C9LmOiQj.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.window_BV7pwtSs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/client.shop-cart-sync_CNsQFCpk.en.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.tslib-es6_i06t5CRd.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.index_CNRWYpsz.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.preact-module_Cvpcobqs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.errors_CTUuk3kr.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.casing_Bd8FVtoj.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.v4_CSBSzmbm.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.utils_BilEMKZB.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.storage_BGV5Ustn.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.authorize_CPxox-Yu.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.useEventListener_DDQp2NAp.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.hooks_4Bjz2F-d.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.validators_Cj2qrO-d.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.useUserRecognitionSignal_CV_BBHZs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/js/chunk.defineInitFunction_D4of-Jj4.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] https://localhost/cdn/wpm/b92a8a06fwb322a1c9p17c06dcam2ff77c86m.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[WARNING] http://localhost:8000/products/venison-peas-recipe/ 2225:3029 "[Web Pixels Manager] No Monorail endpoint provided, skipping logging."
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/products/venison-peas-recipe/ 0:0 Uncaught TypeError: Failed to fetch dynamically imported module: http:…s/modules/v2/loader.init-shop-cart-sync.en.esm.js
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/polyfills.iRHCMwIP.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/app.DsWxz3qG.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/esnext-vendor.DnwbTn14.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/browser.BRUQC0Sw.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/NotFound.CPiqCFWz.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/types-UnauthenticatedErrorModalPayload.C6QC5udQ.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/images-payment-icon.C_9SDN8i.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/utilities-shop-discount-offer.FtFbwcAV.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/utilities-alternativePaymentCurrency.NX4cINO8.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/shared-unactionable-errors.B9RfOnn6.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/helpers-installmentsNotSupportedForAddress.BOCZuYce.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/utils-getCommonShopPayExternalTelemetryAttributes.DpOp7xFP.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayCheckoutGqlVersion.Du6zqzvf.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/graphql-ShopPayCheckoutSessionQuery.DWBSRi0q.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/helpers-setAddressErrors.Cw2BbkNg.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/db-bridge.js 288:12 "[DB Bridge] Firebase modules loaded ✓"
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/types-index.Xpeao3jF.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/images-flag-icon.C_eXYJRt.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/locale-en.CXVkHWV9.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/page-OnePage.BAzWyaTh.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useWalletsTimeout.D2F35q5p.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/remember-me-hooks.Cra7IqQ9.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/OffsitePaymentFailed.BLj9OY5b.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/NoAddressLocationFullDetour.DgVnTlyH.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/SplitDeliveryMerchandiseContainer.C4P8mWjK.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/useShopPayButtonClassName.DF4cBk6T.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/ChangeCompanyLocationLink.DkclaOsk.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/WalletsSandbox-WalletSandbox.B_fbfhwi.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useUnauthenticatedErrorModal.BdksG0ES.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useForceShopPayUrl.CHXW_6pc.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/GooglePayButton-index.Dy9QXdxn.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/MarketsProDisclaimer.DQ6XAU6O.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/ShippingGroupsSummaryLine.BwvatTs0.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/StackedMerchandisePreview.D3rvy-JV.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/AutocompleteField-hooks.Da0aKpth.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/LocalizationExtensionField.Cn6CvUbE.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayPaymentRequiredMethod.OeEf-DTb.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useUpdateCheckoutAddress.BSE_Yvzz.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/WalletLogo.DcUrazTe.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useGeneralPaymentErrorMessage.CjDc6ekl.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShowShopPayOptin.uYP8pDiA.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShowCreateMoreAccountsGdprTreatment.DalV4Y5D.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/Section.BGvjjfIP.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/MobileOrderSummary.C3O8z53y.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useOnePageFormSubmit.DT40MJH3.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/PayPalOverCaptureInfoBanner.trEO2G0W.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/utilities-get-negotiation-input.n6gvfNxC.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/shop-cash-constants.BMXRy04z.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/PaymentErrorBanner.DTvqQ_a_.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/StockProblems-StockProblemsLineItemList.Dwub6mbL.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/DutyOptions.A6jquSGN.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/ShipmentBreakdown.v9NHqKfe.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/MerchandiseModal.C5d9sL2-.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/extension-targets-shipping-options.yvfUvyrq.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/ShippingMethodSelector.D0n0uJW8.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/SubscriptionPriceBreakdown.BB5PJ87H.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/hooks-useSubscribeMessenger.C4UX5QWO.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/app.kbFPPpOR.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/NotFound.Bz45BrAn.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/UnauthenticatedErrorModalPayload.D1hsMvAK.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/index.iFhC-FZy.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/OnePage.Db-FuZsA.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/SplitDeliveryMerchandiseContainer.CRDql5Io.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/LocalizationExtensionField.UsZTbb_4.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/MobileOrderSummary.CqVkJv9Z.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/useOnePageFormSubmit.BRUjVIS4.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/WalletLogo.CIy8uDiZ.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/ChangeCompanyLocationLink.uqpm88mq.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/Section.CU18S7Ap.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/useShopPayButtonClassName.BrcQzLuH.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/DutyOptions.LcqrKXE1.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/PayPalOverCaptureInfoBanner.CuS5ve3d.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/NoAddressLocationFullDetour.CpFaJIpx.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/WalletSandbox.CnR7qNLY.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/ShippingMethodSelector.B0hio2RO.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/SubscriptionPriceBreakdown.BSemv9tH.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/cdn/shopifycloud/checkout-web/assets/c1/assets/StackedMerchandisePreview.D6OuIVjc.css - Failed to load resource: the server responded with a status of 404 (File not found)
+[INFO] http://localhost:8000/js/cart-interceptor.js 291:12 "[Cart] Intercepted:" "/cart/add.js"
+[INFO] http://localhost:8000/js/cart-interceptor.js 310:12 "[Cart] Body:" "{\"form_type\":\"product\",\"utf8\":\"✓\",\"id\":\"50657212465442\",\"quantity\":\"1\",\"product-id\":\"9958909378850\",\"section-id\":\"template--26013853253922__main\",\"sections\":\"sections--26013853417762__cart-drawer\"}"
+[INFO] http://localhost:8000/js/cart-interceptor.js 178:12 "[Cart] Extracted:" "Venison Peas" "venison-peas-recipe" "$12"
+[INFO] http://localhost:8000/js/cart-interceptor.js 321:18 "[Cart] Added via DB Bridge:" "Venison Peas" "x1"
+[INFO] http://localhost:8000/js/cart-interceptor.js 454:12 "[Cart] Response: 1 items"
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/cart-drawer.js 0:1290 "[CartDrawer] handleCartUpdate event detail:" Object
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/cart-drawer.js 0:1911 "[CartDrawer] handleCartUpdate comparison:" Object
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/dialog.js 0:597 "[Dialog] showDialog called on:" "CartDrawer" "dialog open:" false
+[INFO] http://localhost:8000/js/cart-interceptor.js 291:12 "[Cart] Intercepted:" "/cart"
+[INFO] http://localhost:8000/js/cart-interceptor.js 310:12 "[Cart] Body:" "{}"
+[INFO] http://localhost:8000/js/cart-interceptor.js 454:12 "[Cart] Response: 1 items"
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/section-renderer.js 0:2833 "[SectionRenderer] morphSection dialog open states before morph:" Array(1)
+[INFO] http://localhost:8000/products/venison-peas-recipe/js/section-renderer.js 0:3531 "[SectionRenderer] Restored modal state for dialog:" "cart-drawer-dialog"
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED

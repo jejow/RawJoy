@@ -1,0 +1,570 @@
+/* Styles for Database Features (Auth Modal, Account Dashboard, Checkout) */
+/* Designed for RawJoy - Premium Pet Nutrition Brand */
+
+:root {
+  --color-primary: #D36B50;      /* Terracotta RawJoy */
+  --color-primary-hover: #C2593F;
+  --color-secondary: #5A7F71;    /* Sage Green */
+  --color-secondary-hover: #48685C;
+  --color-accent: #F4EAE1;       /* Cream Sand Background */
+  --color-accent-light: #FAF6F2;
+  --color-dark: #232323;         /* Charcoal Black */
+  --color-light: #FFFFFF;
+  --color-gray-border: #E5E5E5;
+  --font-family-sans: 'Poppins', 'Outfit', 'Inter', sans-serif;
+  --font-family-serif: 'Archivo', sans-serif;
+  --transition-smooth: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --border-radius-card: 24px;
+  --shadow-premium: 0 15px 35px rgba(35, 35, 35, 0.05);
+  --shadow-input-focus: 0 0 0 4px rgba(211, 107, 80, 0.15);
+}
+
+/* ============================================================
+   1. AUTHENTICATION MODAL (LOGIN / REGISTER)
+   ============================================================ */
+
+.db-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(35, 35, 35, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.db-modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.db-modal-content {
+  background: var(--color-light, #FFFFFF);
+  border-radius: var(--border-radius-card);
+  padding: 44px 40px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+  position: relative;
+  transform: translateY(30px);
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.db-modal.active .db-modal-content {
+  transform: translateY(0);
+}
+
+.db-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #F3ECE6;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  color: var(--color-dark, #232323);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+  z-index: 10;
+}
+
+.db-modal-close:hover {
+  background: var(--color-primary, #D36B50);
+  color: #FFFFFF;
+  transform: rotate(90deg);
+}
+
+.db-modal-title {
+  font-family: var(--font-family-sans);
+  color: var(--color-dark, #232323);
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+/* Modal Tabs */
+.auth-tabs {
+  display: flex;
+  background: #F3ECE6;
+  border-radius: 30px;
+  padding: 4px;
+  margin-bottom: 28px;
+}
+
+.auth-tab {
+  flex: 1;
+  border: none;
+  background: none;
+  padding: 10px 15px;
+  font-family: var(--font-family-sans);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #777777;
+  cursor: pointer;
+  border-radius: 26px;
+  transition: var(--transition-smooth);
+  text-align: center;
+}
+
+.auth-tab.active {
+  background: var(--color-primary, #D36B50);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(211, 107, 80, 0.2);
+}
+
+/* Form Styles */
+.db-form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.db-form-group label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-secondary, #5A7F71);
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.db-form-input {
+  width: 100%;
+  padding: 13px 20px;
+  border: 1.5px solid var(--color-gray-border, #E5E5E5);
+  border-radius: 50px; /* Highly rounded pill-shape inputs like RawJoy search */
+  font-family: var(--font-family-sans);
+  font-size: 0.95rem;
+  color: var(--color-dark);
+  background: #FCFCFC;
+  transition: var(--transition-smooth);
+}
+
+.db-form-input::placeholder {
+  color: #A0A0A0;
+}
+
+.db-form-input:focus {
+  outline: none;
+  border-color: var(--color-primary, #D36B50);
+  background: #FFFFFF;
+  box-shadow: var(--shadow-input-focus);
+}
+
+textarea.db-form-input {
+  border-radius: 16px;
+  resize: none;
+}
+
+.db-btn {
+  width: 100%;
+  padding: 15px 28px;
+  background: var(--color-primary, #D36B50);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50px; /* Pill button shape */
+  font-family: var(--font-family-sans);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 12px rgba(211, 107, 80, 0.2);
+}
+
+.db-btn:hover {
+  background: var(--color-primary-hover, #C2593F);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(211, 107, 80, 0.3);
+}
+
+.db-btn:active {
+  transform: translateY(0);
+}
+
+.db-btn:disabled {
+  background: #D5D5D5;
+  color: #888888;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.db-form-footer {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.88rem;
+  color: #777777;
+}
+
+.db-form-link {
+  color: var(--color-primary, #D36B50);
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 4px;
+  transition: color 0.2s ease;
+}
+
+.db-form-link:hover {
+  color: var(--color-primary-hover, #C2593F);
+  text-decoration: underline;
+}
+
+.db-error-msg {
+  color: #DC2626;
+  background: #FEE2E2;
+  border: 1px solid #FCA5A5;
+  padding: 12px 16px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* ============================================================
+   2. HEADER USER ICON STYLING
+   ============================================================ */
+
+.header-account-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark, #232323);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header-account-btn:hover {
+  color: var(--color-primary, #D36B50);
+  transform: scale(1.08);
+}
+
+/* ============================================================
+   3. CHECKOUT PAGE STYLING
+   ============================================================ */
+
+.checkout-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+@media (max-width: 991px) {
+  .checkout-container {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    margin: 30px auto;
+  }
+}
+
+/* Form Section */
+.checkout-form-section {
+  border: 1.5px solid var(--color-gray-border, #E5E5E5);
+  border-radius: var(--border-radius-card);
+  padding: 40px;
+  background: #FFFFFF;
+  box-shadow: var(--shadow-premium);
+}
+
+@media (max-width: 480px) {
+  .checkout-form-section {
+    padding: 24px;
+  }
+}
+
+/* Payment Selector Card */
+.checkout-payment-card {
+  flex: 1;
+  border: 2px solid var(--color-gray-border, #E5E5E5);
+  padding: 24px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #FFFFFF;
+  transition: var(--transition-smooth);
+  user-select: none;
+}
+
+.checkout-payment-card input[type="radio"] {
+  accent-color: var(--color-primary, #D36B50);
+  margin-top: 4px;
+  width: 18px;
+  height: 18px;
+}
+
+.checkout-payment-card:hover {
+  border-color: var(--color-primary, #D36B50);
+  background: var(--color-accent-light, #FAF6F2);
+  transform: translateY(-2px);
+}
+
+.checkout-payment-card:has(input[type="radio"]:checked) {
+  border-color: var(--color-primary, #D36B50);
+  background: var(--color-accent-light, #FAF6F2);
+  box-shadow: 0 10px 25px rgba(211, 107, 80, 0.08);
+}
+
+/* Order Summary Section */
+.checkout-summary-section {
+  background: var(--color-accent, #F4EAE1);
+  border-radius: var(--border-radius-card);
+  padding: 40px;
+  position: sticky;
+  top: 30px;
+  border: 1px solid rgba(211, 107, 80, 0.1);
+  box-shadow: 0 12px 30px rgba(211, 107, 80, 0.04);
+}
+
+@media (max-width: 480px) {
+  .checkout-summary-section {
+    padding: 24px;
+  }
+}
+
+.checkout-summary-section h3 {
+  font-family: var(--font-family-sans);
+  color: var(--color-dark);
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 1.5px solid rgba(211, 107, 80, 0.15);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.checkout-item-details strong {
+  font-family: var(--font-family-sans);
+  color: var(--color-dark);
+  font-weight: 700;
+}
+
+/* Totals */
+.checkout-totals {
+  margin-top: 30px;
+  border-top: 1.5px solid rgba(211, 107, 80, 0.15);
+  padding-top: 24px;
+}
+
+.checkout-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: #555555;
+  font-family: var(--font-family-sans);
+}
+
+.checkout-row.total-row {
+  font-weight: 700;
+  border-top: 1px dashed rgba(211, 107, 80, 0.3);
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 1.35rem;
+  color: var(--color-dark);
+}
+
+/* ============================================================
+   4. USER DASHBOARD & ACCOUNT DASHBOARD
+   ============================================================ */
+
+.account-container {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+.account-header {
+  border-bottom: 1.5px solid var(--color-gray-border, #E5E5E5);
+  padding-bottom: 24px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-header h2 {
+  font-family: var(--font-family-sans);
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.02em;
+  color: var(--color-dark);
+}
+
+.account-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+}
+
+@media (max-width: 768px) {
+  .account-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.profile-card {
+  background: var(--color-accent, #F4EAE1);
+  padding: 36px;
+  border-radius: var(--border-radius-card);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+  text-align: left;
+  border: 1px solid rgba(211, 107, 80, 0.1);
+}
+
+.profile-card h3 {
+  font-family: var(--font-family-sans);
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-secondary, #5A7F71);
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.order-card {
+  border: 1.5px solid var(--color-gray-border, #E5E5E5);
+  border-radius: var(--border-radius-card);
+  padding: 30px;
+  background: #FFFFFF;
+  box-shadow: var(--shadow-premium);
+  text-align: left;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid var(--color-gray-border, #E5E5E5);
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.order-status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.order-status.pending {
+  background: #FEF3C7;
+  color: #D97706;
+}
+
+.order-status.success, .order-status.completed {
+  background: #D1FAE5;
+  color: #059669;
+}
+
+/* ============================================================
+   5. SUCCESS SCREEN ANIMATIONS & RECEIPTS
+   ============================================================ */
+
+.success-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  padding: 60px 48px;
+  border-radius: 28px;
+  box-shadow: 0 20px 50px rgba(35, 35, 35, 0.06);
+  text-align: center;
+  border: 1.5px solid var(--color-gray-border, #E5E5E5);
+  animation: successReveal 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@keyframes successReveal {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.success-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  background: #FDF1ED;
+  border-radius: 50%;
+  margin-bottom: 28px;
+  color: var(--color-primary);
+  animation: scaleIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s both;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.success-receipt-card {
+  background: var(--color-accent-light, #FAF6F2);
+  border: 1.5px dashed rgba(211, 107, 80, 0.25);
+  padding: 24px;
+  border-radius: 16px;
+  margin: 36px 0;
+  text-align: left;
+}
+
+.receipt-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 0.92rem;
+  color: #555555;
+  border-bottom: 1px dashed rgba(0,0,0,0.04);
+  padding-bottom: 12px;
+}
+
+.receipt-row:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}

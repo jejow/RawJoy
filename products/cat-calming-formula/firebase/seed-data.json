@@ -1,0 +1,1022 @@
+{
+  "products": [
+    {
+      "id": "beef-spinach-stew",
+      "name": "Beef Spinach",
+      "slug": "beef-spinach-stew",
+      "price": 12.0,
+      "description": "Beef & Spinach is a protein-rich, gently prepared wet recipe designed to support strength, digestion, and everyday vitality.",
+      "category": "Skin Health",
+      "vendor": "Modern Oak",
+      "images": [
+        "products/beef-spinach-stew/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/beef-spinach-stew/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/beef-spinach-stew/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/beef-spinach-stew/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/beef-spinach-stew/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "150gr",
+          "price": 18.0
+        },
+        {
+          "name": "200gr",
+          "price": 24.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-calming-formula",
+      "name": "Cat Calming",
+      "slug": "cat-calming-formula",
+      "price": 22.0,
+      "description": "Cat Calming Formula is a specialized supplement designed to support feline emotional wellness and behavioral balance. Formulated with carefully selected natural ingredients, this product helps reduce stress-related behaviors in cats",
+      "category": "Wellness",
+      "vendor": "Timeless Haven",
+      "images": [
+        "products/cat-calming-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/cat-calming-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/cat-calming-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/cat-calming-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/cat-calming-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0,
+          "compareAtPrice": 48.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0,
+          "compareAtPrice": 64.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "compareAtPrice": 32.0
+    },
+    {
+      "id": "cat-wellness-mix",
+      "name": "Cat Wellness",
+      "slug": "cat-wellness-mix",
+      "price": 23.0,
+      "description": "Cat Wellness Mix is a comprehensive nutritional supplement formulated to support your feline companion's overall health and vitality. This expertly blended formula combines essential vitamins, minerals",
+      "category": "Skin Health",
+      "vendor": "Timeless Haven",
+      "images": [
+        "products/cat-wellness-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/cat-wellness-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/cat-wellness-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/cat-wellness-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/cat-wellness-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "chicken-bone-treat",
+      "name": "Chicken Bone",
+      "slug": "chicken-bone-treat",
+      "price": 22.0,
+      "description": "Crafted from premium chicken bones, this treat delivers natural nutrition and satisfying chewing engagement for dogs. Rich in collagen and minerals, it supports joint health and dental wellness while satisfying your dog's instinctive need to gnaw.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/chicken-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/chicken-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/chicken-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/chicken-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/chicken-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "chicken-herb-stick",
+      "name": "Chicken Herb",
+      "slug": "chicken-herb-stick",
+      "price": 22.0,
+      "description": "Crafted from premium chicken breast infused with aromatic herbs, this savory stick delivers authentic flavor in every bite. Perfect for on-the-go nutrition, it combines lean protein with natural seasonings for a satisfying snack that supports an active lifestyle",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/chicken-herb-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/chicken-herb-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/chicken-herb-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/chicken-herb-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/chicken-herb-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "chicken-pumpkin-pate",
+      "name": "Chicken Pa\u0302te\u0301",
+      "slug": "chicken-pumpkin-pate",
+      "price": 23.0,
+      "description": "Chicken Pumpkin P\u00e2t\u00e9 combines lean poultry with nutrient-dense pumpkin for a sophisticated, wholefood option. This carefully crafted blend delivers high-quality protein while incorporating the natural vitamins and fiber found in pumpkin.",
+      "category": "Skin Health",
+      "vendor": "Modern Oak",
+      "images": [
+        "products/chicken-pumpkin-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/chicken-pumpkin-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/chicken-pumpkin-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/chicken-pumpkin-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/chicken-pumpkin-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "crunchy-bone-treat",
+      "name": "Crunchy Bone",
+      "slug": "crunchy-bone-treat",
+      "price": 23.0,
+      "description": "Crafted for dogs who crave satisfying texture, this crunchy bone treat delivers a rewarding chewing experience that supports natural jaw exercise. The firm, breakable structure encourages extended gnawing",
+      "category": "Skin Health",
+      "vendor": "Aura Interiors",
+      "images": [
+        "products/crunchy-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/crunchy-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/crunchy-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/crunchy-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/crunchy-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "doggy-dental-mix",
+      "name": "Chicken & Carrots",
+      "slug": "doggy-dental-mix",
+      "price": 15.0,
+      "description": "Chicken & Carrots is a protein-rich, wholesome recipe crafted to support lean muscle, healthy digestion, and everyday energy.",
+      "category": "Skin Health",
+      "vendor": "Casa Curate",
+      "images": [
+        "products/doggy-dental-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/doggy-dental-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/doggy-dental-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/doggy-dental-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/doggy-dental-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "150gr",
+          "price": 22.5
+        },
+        {
+          "name": "200gr",
+          "price": 30.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "duck-soft-chews",
+      "name": "Duck Soft Chews",
+      "slug": "duck-soft-chews",
+      "price": 22.0,
+      "description": "Duck Soft Chews deliver a palatable, easily digestible treat that appeals to dogs of all sizes. These chews feature a tender texture that's gentle on teeth while providing satisfying chewing engagement.",
+      "category": "Wellness",
+      "vendor": "Timeless Haven",
+      "images": [
+        "products/duck-soft-chews/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/duck-soft-chews/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/duck-soft-chews/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/duck-soft-chews/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/duck-soft-chews/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "fish-bone-treat",
+      "name": "Fish Bone",
+      "slug": "fish-bone-treat",
+      "price": 22.0,
+      "description": "Fish Bone Treat offers a natural, nutrient-dense snack crafted for optimal palatability and digestive support. Rich in calcium and phosphorus, these treats promote dental health while delivering essential minerals for bone strength.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/fish-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/fish-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/fish-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/fish-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/fish-bone-treat/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "juicy-turkey-crunch",
+      "name": "Juicy Turkey Crunch",
+      "slug": "juicy-turkey-crunch",
+      "price": 15.0,
+      "description": "Juicy Turkey is a lean, protein-rich recipe crafted to support strong muscles, smooth digestion, and steady energy throughout the day.",
+      "category": "Skin Health",
+      "vendor": "Timeless Haven",
+      "images": [
+        "products/juicy-turkey-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/juicy-turkey-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/juicy-turkey-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/juicy-turkey-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/juicy-turkey-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "150gr",
+          "price": 22.5
+        },
+        {
+          "name": "200gr",
+          "price": 30.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "juicy-turkey-stick",
+      "name": "Juicy Turkey",
+      "slug": "juicy-turkey-stick",
+      "price": 22.0,
+      "description": "Crafted from premium turkey meat, this savory stick delivers robust protein in a convenient, portable format. The natural juiciness ensures satisfying flavor with every bite, making it an ideal choice for active individuals seeking a nutrient-dense snack.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/juicy-turkey-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/juicy-turkey-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/juicy-turkey-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/juicy-turkey-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/juicy-turkey-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "lamb-quinoa-blend",
+      "name": "Lamb Quinoa",
+      "slug": "lamb-quinoa-blend",
+      "price": 22.0,
+      "description": "Lamb Quinoa Blend combines premium ground lamb with nutrient-dense quinoa for a complete protein source that supports muscle maintenance and sustained energy. This thoughtfully formulated blend delivers essential amino acids, fiber",
+      "category": "Wellness",
+      "vendor": "Haven \\u0026 Hearth",
+      "images": [
+        "products/lamb-quinoa-blend/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/lamb-quinoa-blend/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/lamb-quinoa-blend/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/lamb-quinoa-blend/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/lamb-quinoa-blend/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "mackerel-salmon-kibble",
+      "name": "Mackerel Salmon",
+      "slug": "mackerel-salmon-kibble",
+      "price": 23.0,
+      "description": "Mackerel Salmon Kibble delivers premium nutrition through a dual-protein formula combining wild-caught mackerel and salmon. Rich in omega-3 fatty acids, this kibble supports coat health, cognitive function, and joint mobility.",
+      "category": "Skin Health",
+      "vendor": "Aura Interiors",
+      "images": [
+        "products/mackerel-salmon-kibble/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/mackerel-salmon-kibble/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/mackerel-salmon-kibble/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/mackerel-salmon-kibble/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/mackerel-salmon-kibble/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "mint-comfort-bowl-series",
+      "name": "Mint Bowl",
+      "slug": "mint-comfort-bowl-series",
+      "price": 22.0,
+      "description": "The Mint Comfort Bowl Series combines thoughtful design with everyday functionality. Each piece features a soft mint finish that complements modern and minimalist aesthetics while maintaining a warm, inviting presence on any table.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/mint-comfort-bowl-series/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/mint-comfort-bowl-series/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/mint-comfort-bowl-series/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/mint-comfort-bowl-series/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/mint-comfort-bowl-series/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [],
+      "weight": 0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "pet-meal-time-mix",
+      "name": "Pet Meal Mix",
+      "slug": "pet-meal-time-mix",
+      "price": 22.0,
+      "description": "Pet Meal Time Mix delivers balanced nutrition designed to support your pet's overall health and vitality. This carefully formulated blend combines essential proteins, vitamins, and minerals to fuel daily energy and maintain optimal wellness.",
+      "category": "Wellness",
+      "vendor": "Timeless Haven",
+      "images": [
+        "products/pet-meal-time-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/pet-meal-time-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/pet-meal-time-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/pet-meal-time-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/pet-meal-time-mix/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "rawjoy-blue-energy-bar",
+      "name": "Blue Bowl",
+      "slug": "rawjoy-blue-energy-bar",
+      "price": 22.0,
+      "description": "RawJoy Blue Energy Bar delivers sustained energy through a carefully formulated blend of whole food ingredients. Packed with natural superfruits and plant-based proteins, this bar provides steady fuel without artificial additives or refined sugars.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/rawjoy-blue-energy-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/rawjoy-blue-energy-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/rawjoy-blue-energy-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/rawjoy-blue-energy-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/rawjoy-blue-energy-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [],
+      "weight": 0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "rawjoy-green-bar",
+      "name": "Doggy Dental Biscuit",
+      "slug": "rawjoy-green-bar",
+      "price": 22.0,
+      "description": "Doggy Dental Biscuit is a crunchy, oven-baked treat designed to support cleaner teeth and fresher breath with every bite.",
+      "category": "Skin Health",
+      "vendor": "Aura Interiors",
+      "images": [
+        "products/rawjoy-green-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/rawjoy-green-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/rawjoy-green-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/rawjoy-green-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/rawjoy-green-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "rawjoy-soft-bar",
+      "name": "RawJoy Soft Bar",
+      "slug": "rawjoy-soft-bar",
+      "price": 12.0,
+      "description": "RawJoy Soft Bar delivers nutrient-dense nutrition in a convenient, portable format. Crafted with whole food ingredients and minimal processing, this bar provides sustained energy without artificial additives or refined sugars.",
+      "category": "Skin Health",
+      "vendor": "Aura Interiors",
+      "images": [
+        "products/rawjoy-soft-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/rawjoy-soft-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/rawjoy-soft-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/rawjoy-soft-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/rawjoy-soft-bar/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "150gr",
+          "price": 18.0
+        },
+        {
+          "name": "200gr",
+          "price": 24.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "salmon-broccoli-crunch",
+      "name": "Salmon Broccoli",
+      "slug": "salmon-broccoli-crunch",
+      "price": 15.0,
+      "description": "Salmon Broccoli Crunch delivers a nutrient-dense combination of omega-3 rich salmon and cruciferous broccoli in every bite. This wholefood pairing supports cardiovascular health and provides essential vitamins, minerals, and antioxidants.",
+      "category": "Skin Health",
+      "vendor": "Aura Interiors",
+      "images": [
+        "products/salmon-broccoli-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/salmon-broccoli-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/salmon-broccoli-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/salmon-broccoli-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/salmon-broccoli-crunch/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        },
+        {
+          "name": "150gr",
+          "price": 22.5
+        },
+        {
+          "name": "200gr",
+          "price": 30.0
+        },
+        {
+          "name": "100gr",
+          "price": 15.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "salmon-carrot-pate",
+      "name": "Salmon Carrot",
+      "slug": "salmon-carrot-pate",
+      "price": 22.0,
+      "description": "Salmon & Carrot is a clean, protein-rich recipe crafted to support healthy skin, a glossy coat, and steady energy.",
+      "category": "Wellness",
+      "vendor": "Modern Oak",
+      "images": [
+        "products/salmon-carrot-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/salmon-carrot-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/salmon-carrot-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/salmon-carrot-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/salmon-carrot-pate/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "salmon-rice-formula",
+      "name": "Salmon Rice",
+      "slug": "salmon-rice-formula",
+      "price": 12.0,
+      "description": "Salmon Rice Formula delivers complete nutrition for dogs requiring a protein-rich, easily digestible meal. This carefully balanced blend combines premium salmon with wholesome rice, providing omega-3 fatty acids for coat health and joint support.",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/salmon-rice-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/salmon-rice-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/salmon-rice-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/salmon-rice-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/salmon-rice-formula/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        },
+        {
+          "name": "150gr",
+          "price": 34.5
+        },
+        {
+          "name": "200gr",
+          "price": 46.0
+        },
+        {
+          "name": "100gr",
+          "price": 23.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "salmon-stick",
+      "name": "Salmon Stick",
+      "slug": "salmon-stick",
+      "price": 22.0,
+      "description": "Salmon Stick Our premium salmon stick delivers concentrated omega-3 fatty acids and high-quality protein in a convenient, portable format. Crafted from wild-caught salmon, this nutrient-dense snack supports cardiovascular health and cognitive function",
+      "category": "Skin Health",
+      "vendor": "Nest \\u0026 Nook",
+      "images": [
+        "products/salmon-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/salmon-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/salmon-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/salmon-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/salmon-stick/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        },
+        {
+          "name": "150gr",
+          "price": 33.0,
+          "compareAtPrice": 48.0
+        },
+        {
+          "name": "200gr",
+          "price": 44.0,
+          "compareAtPrice": 64.0
+        },
+        {
+          "name": "100gr",
+          "price": 22.0,
+          "compareAtPrice": 32.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "compareAtPrice": 32.0
+    },
+    {
+      "id": "venison-peas-recipe",
+      "name": "Venison Peas",
+      "slug": "venison-peas-recipe",
+      "price": 12.0,
+      "description": "Discover the art of preparing venison with peas through this expertly crafted recipe guide. This resource walks you through selecting quality venison cuts, balancing rich game flavors with the subtle sweetness of fresh peas",
+      "category": "Skin Health",
+      "vendor": "Haven \\u0026 Hearth",
+      "images": [
+        "products/venison-peas-recipe/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+        "products/venison-peas-recipe/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_1.jpg",
+        "products/venison-peas-recipe/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2.jpg",
+        "products/venison-peas-recipe/images/244b938eff304bb693951931814539b9.thumbnail.0000000000_2500x.jpg"
+      ],
+      "mainImage": "products/venison-peas-recipe/images/244b938eff304bb693951931814539b9.thumbnail.0000000000.jpg",
+      "variants": [
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        },
+        {
+          "name": "150gr",
+          "price": 18.0
+        },
+        {
+          "name": "200gr",
+          "price": 24.0
+        },
+        {
+          "name": "100gr",
+          "price": 12.0
+        }
+      ],
+      "weight": 0.0,
+      "stock": 50,
+      "rating": 0,
+      "reviewCount": 0,
+      "createdAt": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "skin-health",
+      "name": "Skin Health",
+      "slug": "skin-health",
+      "description": "Browse our skin health collection",
+      "productCount": 19
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness",
+      "slug": "wellness",
+      "description": "Browse our wellness collection",
+      "productCount": 5
+    }
+  ]
+}

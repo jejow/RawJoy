@@ -1,0 +1,266 @@
+{
+  "50657212465442": {
+    "slug": "venison-peas-recipe",
+    "variantName": "100gr"
+  },
+  "50657212498210": {
+    "slug": "venison-peas-recipe",
+    "variantName": "150gr"
+  },
+  "50657212530978": {
+    "slug": "venison-peas-recipe",
+    "variantName": "200gr"
+  },
+  "50657320403234": {
+    "slug": "salmon-stick",
+    "variantName": "100gr"
+  },
+  "50657320436002": {
+    "slug": "salmon-stick",
+    "variantName": "150gr"
+  },
+  "50657320468770": {
+    "slug": "salmon-stick",
+    "variantName": "200gr"
+  },
+  "50657199784226": {
+    "slug": "salmon-rice-formula",
+    "variantName": "100gr"
+  },
+  "50657199816994": {
+    "slug": "salmon-rice-formula",
+    "variantName": "150gr"
+  },
+  "50657199849762": {
+    "slug": "salmon-rice-formula",
+    "variantName": "200gr"
+  },
+  "50657175535906": {
+    "slug": "salmon-carrot-pate",
+    "variantName": "100gr"
+  },
+  "50657175568674": {
+    "slug": "salmon-carrot-pate",
+    "variantName": "150gr"
+  },
+  "50657175601442": {
+    "slug": "salmon-carrot-pate",
+    "variantName": "200gr"
+  },
+  "50657198539042": {
+    "slug": "salmon-broccoli-crunch",
+    "variantName": "100gr"
+  },
+  "50657198571810": {
+    "slug": "salmon-broccoli-crunch",
+    "variantName": "150gr"
+  },
+  "50657198604578": {
+    "slug": "salmon-broccoli-crunch",
+    "variantName": "200gr"
+  },
+  "50657178255650": {
+    "slug": "rawjoy-soft-bar",
+    "variantName": "100gr"
+  },
+  "50657178288418": {
+    "slug": "rawjoy-soft-bar",
+    "variantName": "150gr"
+  },
+  "50657178321186": {
+    "slug": "rawjoy-soft-bar",
+    "variantName": "200gr"
+  },
+  "50657195852066": {
+    "slug": "mackerel-salmon-kibble",
+    "variantName": "100gr"
+  },
+  "50657195884834": {
+    "slug": "mackerel-salmon-kibble",
+    "variantName": "150gr"
+  },
+  "50657195917602": {
+    "slug": "mackerel-salmon-kibble",
+    "variantName": "200gr"
+  },
+  "50657168458018": {
+    "slug": "juicy-turkey-crunch",
+    "variantName": "100gr"
+  },
+  "50657168490786": {
+    "slug": "juicy-turkey-crunch",
+    "variantName": "150gr"
+  },
+  "50657168523554": {
+    "slug": "juicy-turkey-crunch",
+    "variantName": "200gr"
+  },
+  "50657359135010": {
+    "slug": "fish-bone-treat",
+    "variantName": "100gr"
+  },
+  "50657359167778": {
+    "slug": "fish-bone-treat",
+    "variantName": "150gr"
+  },
+  "50657359200546": {
+    "slug": "fish-bone-treat",
+    "variantName": "200gr"
+  },
+  "50657171210530": {
+    "slug": "duck-soft-chews",
+    "variantName": "100gr"
+  },
+  "50657171243298": {
+    "slug": "duck-soft-chews",
+    "variantName": "150gr"
+  },
+  "50657171276066": {
+    "slug": "duck-soft-chews",
+    "variantName": "200gr"
+  },
+  "50657185497378": {
+    "slug": "crunchy-bone-treat",
+    "variantName": "100gr"
+  },
+  "50657185530146": {
+    "slug": "crunchy-bone-treat",
+    "variantName": "150gr"
+  },
+  "50657185562914": {
+    "slug": "crunchy-bone-treat",
+    "variantName": "200gr"
+  },
+  "50657172554018": {
+    "slug": "chicken-pumpkin-pate",
+    "variantName": "100gr"
+  },
+  "50657172586786": {
+    "slug": "chicken-pumpkin-pate",
+    "variantName": "150gr"
+  },
+  "50657172619554": {
+    "slug": "chicken-pumpkin-pate",
+    "variantName": "200gr"
+  },
+  "50657320927522": {
+    "slug": "chicken-herb-stick",
+    "variantName": "100gr"
+  },
+  "50657320960290": {
+    "slug": "chicken-herb-stick",
+    "variantName": "150gr"
+  },
+  "50657320993058": {
+    "slug": "chicken-herb-stick",
+    "variantName": "200gr"
+  },
+  "50657163510050": {
+    "slug": "cat-wellness-mix",
+    "variantName": "100gr"
+  },
+  "50657163542818": {
+    "slug": "cat-wellness-mix",
+    "variantName": "150gr"
+  },
+  "50657163575586": {
+    "slug": "cat-wellness-mix",
+    "variantName": "200gr"
+  },
+  "50657166557474": {
+    "slug": "cat-calming-formula",
+    "variantName": "100gr"
+  },
+  "50657166590242": {
+    "slug": "cat-calming-formula",
+    "variantName": "150gr"
+  },
+  "50657166623010": {
+    "slug": "cat-calming-formula",
+    "variantName": "200gr"
+  },
+  "50657174913314": {
+    "slug": "beef-spinach-stew",
+    "variantName": "100gr"
+  },
+  "50657174946082": {
+    "slug": "beef-spinach-stew",
+    "variantName": "150gr"
+  },
+  "50657174978850": {
+    "slug": "beef-spinach-stew",
+    "variantName": "200gr"
+  },
+  "50657161773346": {
+    "slug": "pet-meal-time-mix",
+    "variantName": "100gr"
+  },
+  "50657161806114": {
+    "slug": "pet-meal-time-mix",
+    "variantName": "150gr"
+  },
+  "50657161838882": {
+    "slug": "pet-meal-time-mix",
+    "variantName": "200gr"
+  },
+  "50657202340130": {
+    "slug": "lamb-quinoa-blend",
+    "variantName": "100gr"
+  },
+  "50657202372898": {
+    "slug": "lamb-quinoa-blend",
+    "variantName": "150gr"
+  },
+  "50657202405666": {
+    "slug": "lamb-quinoa-blend",
+    "variantName": "200gr"
+  },
+  "50657215775010": {
+    "slug": "juicy-turkey-stick",
+    "variantName": "100gr"
+  },
+  "50657215807778": {
+    "slug": "juicy-turkey-stick",
+    "variantName": "150gr"
+  },
+  "50657215840546": {
+    "slug": "juicy-turkey-stick",
+    "variantName": "200gr"
+  },
+  "50655419892002": {
+    "slug": "doggy-dental-mix",
+    "variantName": "100gr"
+  },
+  "50655419924770": {
+    "slug": "doggy-dental-mix",
+    "variantName": "150gr"
+  },
+  "50655419957538": {
+    "slug": "doggy-dental-mix",
+    "variantName": "200gr"
+  },
+  "50657359560994": {
+    "slug": "chicken-bone-treat",
+    "variantName": "100gr"
+  },
+  "50657359593762": {
+    "slug": "chicken-bone-treat",
+    "variantName": "150gr"
+  },
+  "50657359626530": {
+    "slug": "chicken-bone-treat",
+    "variantName": "200gr"
+  },
+  "50657191035170": {
+    "slug": "rawjoy-green-bar",
+    "variantName": "100gr"
+  },
+  "50657191067938": {
+    "slug": "rawjoy-green-bar",
+    "variantName": "150gr"
+  },
+  "50657191100706": {
+    "slug": "rawjoy-green-bar",
+    "variantName": "200gr"
+  }
+}

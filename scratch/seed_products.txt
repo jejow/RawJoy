@@ -1,0 +1,194 @@
+Total products in seed: 24
+
+Product 1:
+  ID: beef-spinach-stew
+  Name: Beef Spinach
+  Slug: beef-spinach-stew
+  Base Price: 12.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}, {'name': '150gr', 'price': 12.0}, {'name': '200gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}]
+--------------------------------------------------
+Product 2:
+  ID: cat-calming-formula
+  Name: Cat Calming
+  Slug: cat-calming-formula
+  Base Price: 22.0
+  Category: Wellness
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 3:
+  ID: cat-wellness-mix
+  Name: Cat Wellness
+  Slug: cat-wellness-mix
+  Base Price: 23.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}, {'name': '150gr', 'price': 23.0}, {'name': '200gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}]
+--------------------------------------------------
+Product 4:
+  ID: chicken-bone-treat
+  Name: Chicken Bone
+  Slug: chicken-bone-treat
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 5:
+  ID: chicken-herb-stick
+  Name: Chicken Herb
+  Slug: chicken-herb-stick
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 6:
+  ID: chicken-pumpkin-pate
+  Name: Chicken Pâté
+  Slug: chicken-pumpkin-pate
+  Base Price: 23.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}, {'name': '150gr', 'price': 23.0}, {'name': '200gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}]
+--------------------------------------------------
+Product 7:
+  ID: crunchy-bone-treat
+  Name: Crunchy Bone
+  Slug: crunchy-bone-treat
+  Base Price: 23.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}, {'name': '150gr', 'price': 23.0}, {'name': '200gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}]
+--------------------------------------------------
+Product 8:
+  ID: doggy-dental-mix
+  Name: Chicken & Carrots
+  Slug: doggy-dental-mix
+  Base Price: 15.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}, {'name': '150gr', 'price': 15.0}, {'name': '200gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}]
+--------------------------------------------------
+Product 9:
+  ID: duck-soft-chews
+  Name: Duck Soft Chews
+  Slug: duck-soft-chews
+  Base Price: 22.0
+  Category: Wellness
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 10:
+  ID: fish-bone-treat
+  Name: Fish Bone
+  Slug: fish-bone-treat
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 11:
+  ID: juicy-turkey-crunch
+  Name: Juicy Turkey Crunch
+  Slug: juicy-turkey-crunch
+  Base Price: 15.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}, {'name': '150gr', 'price': 15.0}, {'name': '200gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}]
+--------------------------------------------------
+Product 12:
+  ID: juicy-turkey-stick
+  Name: Juicy Turkey
+  Slug: juicy-turkey-stick
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 13:
+  ID: lamb-quinoa-blend
+  Name: Lamb Quinoa
+  Slug: lamb-quinoa-blend
+  Base Price: 22.0
+  Category: Wellness
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 14:
+  ID: mackerel-salmon-kibble
+  Name: Mackerel Salmon
+  Slug: mackerel-salmon-kibble
+  Base Price: 23.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}, {'name': '150gr', 'price': 23.0}, {'name': '200gr', 'price': 23.0}, {'name': '100gr', 'price': 23.0}]
+--------------------------------------------------
+Product 15:
+  ID: mint-comfort-bowl-series
+  Name: Mint Bowl
+  Slug: mint-comfort-bowl-series
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: []
+--------------------------------------------------
+Product 16:
+  ID: pet-meal-time-mix
+  Name: Pet Meal Mix
+  Slug: pet-meal-time-mix
+  Base Price: 22.0
+  Category: Wellness
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 17:
+  ID: rawjoy-blue-energy-bar
+  Name: Blue Bowl
+  Slug: rawjoy-blue-energy-bar
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: []
+--------------------------------------------------
+Product 18:
+  ID: rawjoy-green-bar
+  Name: Doggy Dental Biscuit
+  Slug: rawjoy-green-bar
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 19:
+  ID: rawjoy-soft-bar
+  Name: RawJoy Soft Bar
+  Slug: rawjoy-soft-bar
+  Base Price: 12.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}, {'name': '150gr', 'price': 12.0}, {'name': '200gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}]
+--------------------------------------------------
+Product 20:
+  ID: salmon-broccoli-crunch
+  Name: Salmon Broccoli
+  Slug: salmon-broccoli-crunch
+  Base Price: 15.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}, {'name': '150gr', 'price': 15.0}, {'name': '200gr', 'price': 15.0}, {'name': '100gr', 'price': 15.0}]
+--------------------------------------------------
+Product 21:
+  ID: salmon-carrot-pate
+  Name: Salmon Carrot
+  Slug: salmon-carrot-pate
+  Base Price: 22.0
+  Category: Wellness
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 22:
+  ID: salmon-rice-formula
+  Name: Salmon Rice
+  Slug: salmon-rice-formula
+  Base Price: 12.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}, {'name': '150gr', 'price': 12.0}, {'name': '200gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}]
+--------------------------------------------------
+Product 23:
+  ID: salmon-stick
+  Name: Salmon Stick
+  Slug: salmon-stick
+  Base Price: 22.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}, {'name': '150gr', 'price': 22.0}, {'name': '200gr', 'price': 22.0}, {'name': '100gr', 'price': 22.0}]
+--------------------------------------------------
+Product 24:
+  ID: venison-peas-recipe
+  Name: Venison Peas
+  Slug: venison-peas-recipe
+  Base Price: 12.0
+  Category: Skin Health
+  Variants: [{'name': '100gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}, {'name': '150gr', 'price': 12.0}, {'name': '200gr', 'price': 12.0}, {'name': '100gr', 'price': 12.0}]
+--------------------------------------------------

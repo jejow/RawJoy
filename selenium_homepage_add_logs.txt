@@ -1,0 +1,78 @@
+[INFO] http://localhost:8000/js/cart-interceptor.js 1703:10 "[Cart] Interceptor installed ✓"
+[INFO] http://localhost:8000/ 2041:10 "%cPebble theme (v1.1.0) by Foxecom | Learn more https://rawjoy.com" "font-size: 14px; color: #FF5C00;"
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/utilities.js?v=432309936098794211770797007' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/utilities.js?v=432309936098794211770797007 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/events.js?v=107931329937668355921776673949' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/events.js?v=107931329937668355921776673949 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/component.js?v=7598414753492740651765250348' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/component.js?v=7598414753492740651765250348 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/morph.js?v=96688351829082320291768384616' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/morph.js?v=96688351829082320291768384616 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/swiper.js?v=36270591393908806541767587270' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/swiper.js?v=36270591393908806541767587270 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/animation.js?v=142905138627646095261768017642' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/animation.js?v=142905138627646095261768017642 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/motion-component.js?v=157059568654758740731773902582' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/motion-component.js?v=157059568654758740731773902582 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/page-transition.js?v=43898393496219403521774236260' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/page-transition.js?v=43898393496219403521774236260 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/section-renderer.js?v=154568302229434357571765250349' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/section-renderer.js?v=154568302229434357571765250349 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/theme.js?v=96441619613020785891776673949' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/theme.js?v=96441619613020785891776673949 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/carousel.js?v=156096785658522729781776673947' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/carousel.js?v=156096785658522729781776673947 - Failed to load resource: net::ERR_FAILED
+[SEVERE] http://localhost:8000/ - Access to script at 'http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/modules.js?v=26115603972005721061774517064' from origin 'http://localhost:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[SEVERE] http://pebble-rawjoy.myshopify.com/cdn/shop/t/2/assets/modules.js?v=26115603972005721061774517064 - Failed to load resource: net::ERR_FAILED
+[WARNING] http://localhost:8000/ 2190:3029 "[Web Pixels Manager] No Monorail endpoint provided, skipping logging."
+[SEVERE] http://localhost:8000/js/client.init-shop-cart-sync_CBh3R3k1.en.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.init_BiRY1oFY.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.document_C9LmOiQj.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.window_BV7pwtSs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/client.shop-cart-sync_CNsQFCpk.en.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.tslib-es6_i06t5CRd.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.index_CNRWYpsz.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.preact-module_Cvpcobqs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.errors_CTUuk3kr.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.casing_Bd8FVtoj.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.v4_CSBSzmbm.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.utils_BilEMKZB.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.storage_BGV5Ustn.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.authorize_CPxox-Yu.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.useEventListener_DDQp2NAp.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.hooks_4Bjz2F-d.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.validators_Cj2qrO-d.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.useUserRecognitionSignal_CV_BBHZs.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/js/chunk.defineInitFunction_D4of-Jj4.esm.js - Failed to load resource: the server responded with a status of 404 (File not found)
+[WARNING] http://localhost:8000/js/swiper.js 0:7059 "Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters"
+[SEVERE] http://localhost:8000/css/images/icon-select-arrow.svg - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] https://localhost/cdn/wpm/bc5a2dbecw2e5701dcp16d0b08em93d9521bm.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[WARNING] http://localhost:8000/ 2190:3029 "[Web Pixels Manager] No Monorail endpoint provided, skipping logging."
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/css/images/icon-select-arrow.svg - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[SEVERE] http://localhost:8000/.well-known/shopify/monorail/unstable/produce_batch - Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))
+[INFO] http://localhost:8000/js/cart-interceptor.js 1808:12 "[Cart] Global Click Delegation Fallback opener installed ✓"
+[INFO] http://localhost:8000/js/cart-interceptor.js 1841:12 "[Cart Interceptor] pageshow triggered, persisted:" false
+[INFO] http://localhost:8000/js/cart-interceptor.js 1808:12 "[Cart] Global Click Delegation Fallback opener installed ✓"
+[SEVERE] http://localhost:8000/services/login_with_shop/buyer/transfer?analytics_trace_id=fec4d302-46d1-4627-939f-bb32c40d29e4&target_origin=http%3A%2F%2Flocalhost%3A8000&client_handle=localhost&redirect_uri=https%3A%2F%2Fshop.app%2Fpay%2Fhop%3Fanalytics_trace_id%3Dfec4d302-46d1-4627-939f-bb32c40d29e4%26target_origin%3Dhttp%253A%252F%252Flocalhost%253A8000%26client_handle%3Dlocalhost - Failed to load resource: the server responded with a status of 404 (File not found)
+[INFO] http://localhost:8000/js/db-bridge.js 998:12 "[DB Bridge] Firebase modules loaded ✓"
+[INFO] http://localhost:8000/js/cart-interceptor.js 1113:16 "[Cart Interceptor] Updated cart drawer content in-place."
+[INFO] http://localhost:8000/js/cart-interceptor.js 1113:16 "[Cart Interceptor] Updated cart drawer content in-place."
+[INFO] http://localhost:8000/js/cart-interceptor.js 1113:16 "[Cart Interceptor] Updated cart drawer content in-place."
+[INFO] http://localhost:8000/js/cart-interceptor.js 1113:16 "[Cart Interceptor] Updated cart drawer content in-place."
+[INFO] http://localhost:8000/js/cart-interceptor.js 1113:16 "[Cart Interceptor] Updated cart drawer content in-place."
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[SEVERE] http://localhost:8000/css/images/icon-select-arrow.svg - Failed to load resource: the server responded with a status of 404 (File not found)
+[INFO] http://localhost:8000/js/dialog.js 0:597 "[Dialog] showDialog called on:" "SubscribePopup" "dialog open:" false
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[SEVERE] http://localhost:8000/css/images/icon-select-arrow.svg - Failed to load resource: the server responded with a status of 404 (File not found)
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[SEVERE] https://localhost/api/collect - Failed to load resource: net::ERR_CONNECTION_REFUSED

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RawJoy Database Seeder</title>
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/db-ui.css">
+  <style>
+    body {
+      background-color: #F4EAE1;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      color: #232323;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .seeder-card {
+      background: #FFFFFF;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+    .status-log {
+      background: #232323;
+      color: #00FF00;
+      font-family: 'Courier New', monospace;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: left;
+      height: 150px;
+      overflow-y: auto;
+      font-size: 0.85rem;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="seeder-card">
+    <img src="../images/logo.png" alt="RawJoy Logo" style="height: 50px; margin-bottom: 20px;">
+    <h2 style="color: #D36B50; margin-top: 0;">Database Seeder</h2>
+    <p>Gunakan halaman ini untuk memasukkan data 25 produk awal ke Firebase Firestore Anda secara otomatis.</p>
+    
+    <div class="status-log" id="status-log">
+      System: Ready to seed.
+      Waiting for user trigger...
+    </div>
+
+    <button class="db-btn" id="seed-btn">Mulai Seed Database</button>
+    <a href="../index.html" class="db-form-link" style="display: block; margin-top: 20px; font-weight: 600;">Kembali ke Beranda</a>
+  </div>
+
+  <script type="module">
+    import { seedDatabase, isDatabaseSeeded } from './seed.js';
+    
+    // Fetch seed data
+    const log = document.getElementById('status-log');
+    
+    function appendLog(text) {
+      log.innerHTML += `<br>> ${text}`;
+      log.scrollTop = log.scrollHeight;
+    }
+
+    document.getElementById('seed-btn').addEventListener('click', async () => {
+      const btn = document.getElementById('seed-btn');
+      btn.disabled = true;
+      btn.textContent = 'Menyemai Data...';
+      
+      appendLog('Memulai pengambilan seed-data.json...');
+      
+      try {
+        const response = await fetch('./seed-data.json');
+        if (!response.ok) throw new Error('Gagal memuat file seed-data.json');
+        
+        const seedData = await response.json();
+        appendLog(`Berhasil memuat ${seedData.products.length} produk dan ${seedData.categories.length} kategori.`);
+        
+        appendLog('Menghubungkan ke Firebase Firestore...');
+        const result = await seedDatabase(seedData);
+        
+        appendLog(`Selesai! Berhasil memasukkan:`);
+        appendLog(`- ${result.products} Produk`);
+        appendLog(`- ${result.categories} Kategori`);
+        
+        if (result.errors.length > 0) {
+          appendLog(`Eror selama seeder:`);
+          result.errors.forEach(err => appendLog(`Error: ${err}`));
+        } else {
+          appendLog('Database berhasil di-seed 100% tanpa eror!');
+        }
+        
+      } catch (e) {
+        appendLog(`Eror: ${e.message}`);
+        console.error(e);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Mulai Seed Database';
+      }
+    });
+  </script>
+</body>
+</html>

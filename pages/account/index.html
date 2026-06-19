@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account - RawJoy</title>
+  <link rel="stylesheet" href="../../css/theme.css">
+  <link rel="stylesheet" href="../../css/db-ui.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #D36B50;
+      --color-primary-hover: #c2593f;
+      --color-bg: #FAF6F3;
+      --color-card: #FFFFFF;
+      --color-text: #232323;
+      --color-text-light: #6B7280;
+      --color-border: #E5E7EB;
+      --color-accent-bg: #FFF7ED;
+      --color-success: #059669;
+      --color-warning: #D97706;
+      --color-info: #2563EB;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.06);
+      --shadow-lg: 0 8px 30px rgba(0,0,0,0.08);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 20px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--color-bg);
+      font-family: 'Poppins', sans-serif;
+      color: var(--color-text);
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    .account-nav {
+      background: var(--color-card);
+      padding: 12px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .back-to-shop {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+
+    .back-to-shop:hover {
+      color: var(--color-primary-hover);
+      transform: translateX(-2px);
+    }
+
+    .brand-logo {
+      height: 36px;
+      object-fit: contain;
+    }
+
+    /* Main Container */
+    .account-container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    /* Page Header */
+    .account-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+
+    .account-header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--color-text);
+    }
+
+    .btn-logout {
+      padding: 10px 24px;
+      background: var(--color-text);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-logout:hover {
+      background: #444;
+      transform: translateY(-1px);
+    }
+
+    /* Stats Row */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .stat-card {
+      background: var(--color-card);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-border);
+      text-align: center;
+    }
+
+    .stat-card__icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+    }
+
+    .stat-card__icon--primary { background: #FEF3C7; color: #D97706; }
+    .stat-card__icon--success { background: #D1FAE5; color: #059669; }
+    .stat-card__icon--info { background: #DBEAFE; color: #2563EB; }
+
+    .stat-card__value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-text);
+    }
+
+    .stat-card__label {
+      font-size: 0.8rem;
+      color: var(--color-text-light);
+      margin-top: 4px;
+    }
+
+    /* Grid Layout */
+    .account-grid {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    /* Profile Card */
+    .profile-card {
+      background: var(--color-card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+    }
+
+    .profile-card__header {
+      background: linear-gradient(135deg, #D36B50, #E8956F);
+      padding: 28px 24px;
+      text-align: center;
+      position: relative;
+    }
+
+    .profile-card__avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.25);
+      border: 3px solid rgba(255,255,255,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+      font-size: 1.8rem;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .profile-card__name {
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .profile-card__email {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.8rem;
+      margin-top: 4px;
+    }
+
+    .profile-card__body {
+      padding: 24px;
+    }
+
+    .profile-field {
+      margin-bottom: 18px;
+    }
+
+    .profile-field:last-child {
+      margin-bottom: 0;
+    }
+
+    .profile-field__label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .profile-field__value {
+      font-size: 0.95rem;
+      color: var(--color-text);
+    }
+
+    /* Orders Section */
+    .orders-section__title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .orders-section__title svg {
+      color: var(--color-primary);
+    }
+
+    /* Order Card */
+    .order-card {
+      background: var(--color-card);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 14px;
+      border: 1px solid var(--color-border);
+      overflow: hidden;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .order-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    .order-card__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--color-border);
+      background: #FAFAFA;
+    }
+
+    .order-card__id {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .order-card__date {
+      font-size: 0.75rem;
+      color: var(--color-text-light);
+      margin-top: 2px;
+    }
+
+    .order-card__right {
+      text-align: right;
+    }
+
+    .badge-status {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .badge-status.pending { background: #FEF3C7; color: #D97706; }
+    .badge-status.processing { background: #DBEAFE; color: #2563EB; }
+    .badge-status.shipped { background: #F3E8FF; color: #7C3AED; }
+    .badge-status.delivered { background: #D1FAE5; color: #059669; }
+    .badge-status.cancelled { background: #FEE2E2; color: #DC2626; }
+    
+    .sync-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.7rem;
+      color: var(--color-success);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .sync-indicator.unsynced {
+      color: var(--color-text-light);
+    }
+
+    .order-card__body {
+      padding: 16px 20px;
+    }
+
+    .order-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      font-size: 0.85rem;
+    }
+
+    .order-item__name {
+      color: var(--color-text);
+    }
+
+    .order-item__price {
+      font-weight: 500;
+      color: var(--color-text-light);
+    }
+
+    .order-card__footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 20px;
+      border-top: 1px dashed var(--color-border);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .order-card__total {
+      color: var(--color-primary);
+    }
+
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 48px 24px;
+      background: var(--color-card);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+
+    .empty-state svg {
+      color: #D1D5DB;
+      margin-bottom: 16px;
+    }
+
+    .empty-state p {
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    .empty-state .btn-shop {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 24px;
+      background: var(--color-primary);
+      color: #fff;
+      text-decoration: none;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: all 0.2s ease;
+    }
+
+    .empty-state .btn-shop:hover {
+      background: var(--color-primary-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Loading Skeleton */
+    .skeleton {
+      background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 4px;
+      height: 16px;
+      width: 120px;
+      display: inline-block;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .account-grid {
+        grid-template-columns: 1fr;
+      }
+      .stats-row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .stat-card {
+        padding: 14px 12px;
+      }
+      .stat-card__value {
+        font-size: 1.2rem;
+      }
+      .account-header h1 {
+        font-size: 1.3rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .stats-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="account-nav">
+    <a href="../../index.html" class="back-to-shop">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Continue Shopping
+    </a>
+    <img src="../../images/logo.png" alt="RawJoy Logo" class="brand-logo">
+    <div style="width: 100px;"></div>
+  </nav>
+
+  <div class="account-container">
+    <!-- Page Header -->
+    <div class="account-header">
+      <h1>Customer Dashboard</h1>
+      <button class="btn-logout" id="logout-btn">Logout</button>
+    </div>
+
+    <!-- Stats Row -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        </div>
+        <div class="stat-card__value" id="stat-orders">0</div>
+        <div class="stat-card__label">Total Orders</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--success">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <div class="stat-card__value" id="stat-completed">0</div>
+        <div class="stat-card__label">Completed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--info">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+        </div>
+        <div class="stat-card__value" id="stat-cart">0</div>
+        <div class="stat-card__label">Cart</div>
+      </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div class="account-grid">
+      <!-- Profile Card -->
+      <div>
+        <div class="profile-card">
+          <div class="profile-card__header">
+            <div class="profile-card__avatar" id="profile-avatar">?</div>
+            <div class="profile-card__name" id="profile-display-name">Loading...</div>
+            <div class="profile-card__email" id="profile-display-email">...</div>
+          </div>
+          <div class="profile-card__body">
+            <div class="profile-field">
+              <div class="profile-field__label">Full Name</div>
+              <div class="profile-field__value" id="profile-name"><span class="skeleton"></span></div>
+            </div>
+            <div class="profile-field">
+              <div class="profile-field__label">Email</div>
+              <div class="profile-field__value" id="profile-email"><span class="skeleton"></span></div>
+            </div>
+            <div class="profile-field">
+              <div class="profile-field__label">Phone</div>
+              <div class="profile-field__value" id="profile-phone"><span class="skeleton" style="width: 100px;"></span></div>
+            </div>
+            <div class="profile-field">
+              <div class="profile-field__label">Shipping Address</div>
+              <div class="profile-field__value" id="profile-address"><span class="skeleton" style="width: 160px;"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order History -->
+      <div>
+        <div class="orders-section__title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          Order History
+        </div>
+        <div id="orders-container">
+          <div class="empty-state">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <p>Loading order history...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DB Bridge & Logic -->
+  <script src="../../js/cart-interceptor.js"></script>
+<script type="module">
+    import { DB } from '../../js/db-bridge.js';
+
+    // Wait for Firebase auth state to settle before checking user
+    // This prevents the "redirect to homepage" bug
+    function waitForAuth() {
+      return new Promise((resolve) => {
+        // First check synchronously
+        const user = DB.auth.getCurrentUser();
+        if (user) {
+          resolve(user);
+          return;
+        }
+
+        // If no user yet, listen for auth state change (Firebase may still be loading)
+        let resolved = false;
+        const unsubscribe = DB.auth.onAuthChange((user) => {
+          if (!resolved) {
+            resolved = true;
+            if (typeof unsubscribe === 'function') unsubscribe();
+            resolve(user);
+          }
+        });
+
+        // Timeout fallback: if auth doesn't fire within 3 seconds, resolve with null
+        setTimeout(() => {
+          if (!resolved) {
+            resolved = true;
+            if (typeof unsubscribe === 'function') unsubscribe();
+            resolve(null);
+          }
+        }, 3000);
+      });
+    }
+
+    async function init() {
+      const user = await waitForAuth();
+      
+      if (!user) {
+        window.location.href = '../../index.html';
+        return;
+      }
+
+      // Load Profile
+      const displayName = user.displayName || user.email?.split('@')[0] || 'User';
+      const displayEmail = user.email || '';
+
+      // Set avatar initial
+      document.getElementById('profile-avatar').textContent = displayName.charAt(0).toUpperCase();
+      document.getElementById('profile-display-name').textContent = displayName;
+      document.getElementById('profile-display-email').textContent = displayEmail;
+
+      const profile = await DB.auth.getProfile(user.uid);
+      if (profile.success) {
+        document.getElementById('profile-name').textContent = profile.data.name || displayName;
+        document.getElementById('profile-email').textContent = profile.data.email || displayEmail;
+        document.getElementById('profile-phone').textContent = profile.data.phone || '-';
+        document.getElementById('profile-address').textContent = profile.data.address || 'Address not set.';
+      } else {
+        document.getElementById('profile-name').textContent = displayName;
+        document.getElementById('profile-email').textContent = displayEmail;
+        document.getElementById('profile-phone').textContent = '-';
+        document.getElementById('profile-address').textContent = 'Address not set.';
+      }
+
+      // Load Cart Count
+      try {
+        const cartCount = await DB.cart.getCount();
+        document.getElementById('stat-cart').textContent = cartCount;
+      } catch (e) {
+        document.getElementById('stat-cart').textContent = '0';
+      }
+
+      // Load Orders
+      const orders = await DB.orders.getUserOrders();
+      const container = document.getElementById('orders-container');
+      container.innerHTML = '';
+
+      // Stats
+      document.getElementById('stat-orders').textContent = orders.length;
+      document.getElementById('stat-completed').textContent = orders.filter(o => o.status === 'delivered').length;
+
+      if (orders.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+            </svg>
+            <p>You do not have any order history yet.</p>
+            <a href="../../collections/shop-all/index.html" class="btn-shop">Start Shopping</a>
+          </div>
+        `;
+      } else {
+        orders.forEach(order => {
+          const date = new Date(order.createdAt).toLocaleDateString('en-US', {
+            year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'
+          });
+          const totalStr = `$${order.total.toFixed(2)}`;
+          
+          const itemsHTML = (order.items || []).map(item => `
+            <div class="order-item">
+              <span class="order-item__name">${item.name} (${item.variant || 'Default'}) × ${item.quantity}</span>
+              <span class="order-item__price">$${(item.price * item.quantity).toFixed(2)}</span>
+            </div>
+          `).join('');
+
+          const syncIcon = order.synced === 1 || !order.id.startsWith('local_')
+            ? `<span class="sync-indicator">✓ Cloud</span>`
+            : `<span class="sync-indicator unsynced">☁ Local</span>`;
+
+          const card = document.createElement('div');
+          card.className = 'order-card';
+          card.innerHTML = `
+            <div class="order-card__header">
+              <div>
+                <div class="order-card__id">Order #${order.id.slice(-6).toUpperCase()}</div>
+                <div class="order-card__date">${date}</div>
+              </div>
+              <div class="order-card__right">
+                <span class="badge-status ${order.status}">${order.status}</span>
+                <div>${syncIcon}</div>
+              </div>
+            </div>
+            <div class="order-card__body">${itemsHTML}</div>
+            <div class="order-card__footer">
+              <span>Total</span>
+              <span class="order-card__total">${totalStr}</span>
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      }
+
+      // Logout handler
+      document.getElementById('logout-btn').addEventListener('click', async () => {
+        await DB.auth.logout();
+        window.location.href = '../../index.html';
+      });
+    }
+
+    // Start initialization
+    init();
+  </script>
+</body>
+</html>
